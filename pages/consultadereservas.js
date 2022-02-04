@@ -1,15 +1,15 @@
-import React from "react";
 import { Box } from "@chakra-ui/react";
 import Layout from "../components/layout/Layout";
-const Home = () => {
+
+const Consultadereservas = () => {
   return (
     <>
       <Layout>
         <Box>
-          <h1>Inicio</h1>
+          <h1>Consulta de reservas</h1>
         </Box>
       </Layout>
     </>
   );
 };
-export default Home;
+export default Consultadereservas;
